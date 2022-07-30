@@ -1,4 +1,4 @@
-.topbarContainer{
+.navContainer{
     height: 50px;
     width: 100%;
     background-color: rgb(140, 33, 12);
@@ -9,8 +9,8 @@
 }
 
 
-
-.topbarLeft{
+/* Logo Styling */
+.navLeft{
     flex: 3;
 }
 
@@ -22,7 +22,8 @@
     cursor: pointer;
 }
 
-.topbarCenter{
+/* Search Bar Styling */
+.navCenter{
     flex: 5;
 }
 
@@ -34,11 +35,29 @@
     align-items: center;
 }
 
-.topbarRight{
-    flex: 4;
+.searchIcon{
+    font-size: 20px !important;
+    margin-left: 3px;
+
 }
 
-.topbarImage{
+.searchInput{
+    border: none;
+    width: 70%;
+}
+
+.searchInput:focus{
+    outline: none;
+}
+
+/* User Icons Styling */
+.navRight{
+    flex: 4;
+    display: flex;
+    
+}
+
+.navImage{
     width: 32px;
     height: 32px;
 }
