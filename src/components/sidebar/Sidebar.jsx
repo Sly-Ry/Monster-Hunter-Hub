@@ -15,6 +15,16 @@ export default function Sidebar() {
             <span className="sidebarListItemText">feed</span>
           </li>
         </ul>
+        <button className="sidebarBtn">
+          showmore
+        </button>
+        <hr className="sidebarHr"/>
+        <ul className="sidebarFriendList">
+          <li className="sidebarFriend">
+            <img className="sidebarFriendImg" src="./assets/person/2.jpg" alt="" />
+            <span className="sidebarFriendName">Jane Ho</span>
+          </li>
+        </ul>
       </div>
     </div>
   )
