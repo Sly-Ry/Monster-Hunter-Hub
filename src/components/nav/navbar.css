@@ -78,9 +78,9 @@
 .navIconBadge{
     width: 15px;
     height: 15px;
-    background-color: rgb(0, 132, 255);
+    background-color: rgb(235, 197, 28);
     border-radius: 50%;
-    color: white;
+    color: rgb(7, 3, 3);
     position: absolute;
     top: -5px;
     right: -5px;
