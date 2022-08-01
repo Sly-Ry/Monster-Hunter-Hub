@@ -1,5 +1,5 @@
 import "./share.css"
-import { PermMedia } from "@material-ui/icons"
+import { Wallpaper, EmojiNature, Flare, EmojiEmotions } from "@material-ui/icons"
 
 export default function Share() {
   return (
@@ -14,10 +14,23 @@ export default function Share() {
             <div className="shareBottom">
                 <div className="shareOptions">
                     <div className="shareOption">
-                        <PermMedia className="shareIcon"/>
+                        <Wallpaper htmlColor="tomato" className="shareIcon"/>
                         <span className="shareOptionText">Photo or Video</span>
                     </div>
+                    <div className="shareOption">
+                        <EmojiNature htmlColor="blue" className="shareIcon"/>
+                        <span className="shareOptionText">Tag</span>
+                    </div>
+                    <div className="shareOption">
+                        <Flare htmlColor="green" className="shareIcon"/>
+                        <span className="shareOptionText">Location</span>
+                    </div>
+                    <div className="shareOption">
+                        <EmojiEmotions htmlColor="goldenrod" className="shareIcon"/>
+                        <span className="shareOptionText">Emoji</span>
+                    </div>
                 </div>
+                <button className="shareBtn">Share</button>
             </div>
         </div>
     </div>
