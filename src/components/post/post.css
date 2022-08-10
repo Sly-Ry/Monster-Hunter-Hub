@@ -77,10 +77,12 @@
 .postLikeCounter{
     margin-top: 5px;
     font-size: 15px;
+    color: brown;
 }
 
 .postCommentText{
     cursor: pointer;
-    border-bottom: 1px dashed black;
+    color: brown;
+    border-bottom: 1px dashed brown;
     font-size: 15px;
 }
