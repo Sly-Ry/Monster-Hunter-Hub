@@ -16,9 +16,20 @@ export default function Post() {
                 </div>
             </div>
             <div className="postCenter">
-                <div className="postContainer"></div>
+                <span className="postText">Check out Grimace!</span>
+                <img className="postImg" src="assets/post/m1.jpg" alt="" />
             </div>
-            <div className="postBottom"></div>
+            <div className="postBottom">
+                <div className="postBLeft">
+                    <img className="likeIcon" src="assets/paw.png" alt="" />
+                    <img className="BBQIcon" src="assets/BBQ.webp" alt="" />
+                    <span className="postLikeCounter">12 likes</span>
+                    
+                </div>
+                <div className="postBRight">
+                    <span className="postCommentText">2 Comments</span>
+                </div>
+            </div>
         </div>
 
     </div>
