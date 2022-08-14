@@ -1,8 +1,9 @@
 import "./post.css"
 import { MoreVert } from "@material-ui/icons"
 
-export default function Post() {
-  return (
+export default function Post({post}) {
+    
+    return (
     <div className="post">
         <div className="postWrapper">
             <div className="postTop">
