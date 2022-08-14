@@ -24,7 +24,7 @@ export const Users = [
 export const Posts = [
     {
         id: 1,
-        entry: "This is a cool monster",
+        text: "This is a cool monster",
         photo: "assets/post/m1.jpg",
         date: "5 min ago",
         userId: 1,
@@ -41,7 +41,7 @@ export const Posts = [
     },
     {
         id: 3,
-        entry: "Love prevails",
+        text: "Love prevails",
         photo: "assets/post/m3.jpg",
         date: "2 min ago",
         userId: 3,
