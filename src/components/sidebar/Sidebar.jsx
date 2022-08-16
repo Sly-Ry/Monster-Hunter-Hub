@@ -1,5 +1,7 @@
 import "./sidebar.css"
 import { RssFeed } from "@material-ui/icons"
+import { Users } from "../../mockData"
+import Friend from "../friends/Friends"
 
 export default function Sidebar() {
   return (
@@ -20,10 +22,9 @@ export default function Sidebar() {
         </button>
         <hr className="sidebarHr"/>
         <ul className="sidebarFriendList">
-          <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="./assets/person/2.jpg" alt="" />
-            <span className="sidebarFriendName">Jane Ho</span>
-          </li>
+        {Users.map(u => (
+            <Friend key={u.id} user={u}/>
+        ))}
         </ul>
       </div>
     </div>

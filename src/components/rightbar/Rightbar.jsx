@@ -1,4 +1,6 @@
 import "./rightbar.css"
+import { Users } from "../../mockData"
+import Online from "../online/Online";
 
 export default function Rightbar() {
     return (
@@ -13,13 +15,9 @@ export default function Rightbar() {
                 <img className="rightbarAd" src="assets/ad.jpg" alt="" />
                 <h4 className="rightbarTitle">Online Friends</h4>
                 <ul className="rightbarFriendsList">
-                    <li className="rightbarFriend">
-                        <div className="rightbarProfileImgContainer">
-                            <img src="assets/person/3.jpg" alt="" className="rightbarProfileImg" />
-                            <span className="rightbarOnline"></span>
-                        </div>
-                        <span className="rightbarUsername">Dwaynee Boy</span>
-                    </li>
+                    {Users.map(u => (
+                        <Online key={u.id} user={u}/>
+                    ))}
                 </ul>
             </div>
         </div>
