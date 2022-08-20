@@ -42,6 +42,13 @@ export default function Rightbar({ profile }) {
                     <span className="rightbarInfoValue">Single</span>
                 </div>
             </div>
+            <h4 className="rightbarTitle">User friends</h4>
+            <div className="rightbarFollowings">
+                <div className="rightbarFollowing">
+                    <img src="assets/person/1.jpg" alt="" className="rightbarFImg" />
+                    <span className="rightbarFUserName">Ben Dova</span>
+                </div>
+            </div>
             </>
         );
     }
