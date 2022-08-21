@@ -7,7 +7,7 @@ export default function Login() {
                 <div className="loginLeft">
                     <h3 className="loginLogo">MHH</h3>
                     <span className="loginDesc">
-                        Hunting together is fun!
+                        Welcome, hunter.
                     </span>
                 </div>
                 <div className="loginRight">
