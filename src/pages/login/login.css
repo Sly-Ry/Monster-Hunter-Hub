@@ -31,3 +31,12 @@
 .loginDesc{
     font-size: 20px;
 }
+
+.loginBox{
+    height: 300px;
+    padding: 20px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
