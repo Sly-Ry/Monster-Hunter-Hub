@@ -1,14 +1,19 @@
 .login{
+    background-image: url('../../../public/assets/clearing.jpg');
+    background-size: 105% 105%;
+    background-repeat: no-repeat;
     width: 100vw;
-    height: 100vw;
-    background-color: #f0f2f5;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .loginWrapper{
-    width: 70%;
+    /* background-image: url('../../../public/assets/book.jpg');
+    background-size: 100% ;
+    background-repeat: no-repeat; */
+    width: 70%; 
     height: 70%;
     display: flex;
 }
@@ -21,10 +26,10 @@
 }
 
 .loginLogo{
-    font-size:  80px;
+    font-size: 8vw;
     font-weight: 800;
     color: rgb(233, 174, 10);
-    text-shadow: 1px 2px #756a00;
+    text-shadow: -3px 2px #302004;
     margin-bottom: 10px;
 }
 
@@ -33,10 +38,58 @@
 }
 
 .loginBox{
+    background-image: url('../../../public/assets/wood.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0 5px 10px rgb(48, 22, 4);
+    filter: grayscale(0.4);
     height: 300px;
-    padding: 20px;
-    background-color: aqua;
+    padding: 40px;
+    background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.loginInput{
+    height: 30px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-left: 15px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.loginInput:focus{
+    outline: none;
+} 
+
+.loginBtn {
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(41, 104, 28);
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.loginRegister{
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(104, 28, 28);
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.loginForgot{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    ;
 }

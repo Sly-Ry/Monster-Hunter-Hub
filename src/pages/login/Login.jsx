@@ -12,13 +12,19 @@ export default function Login() {
                 </div>
                 <div className="loginRight">
                     <div className="loginBox">
-                        <input placeholder='Email' className="loginInput" />
-                        <input placeholder='Password' className="loginInput" />
-                        <button className="loginBtn">login</button>
+                        <input placeholder='Email:' className="loginInput" />
+                        <input placeholder='Password:' className="loginInput" />
+                        <div className="loginBtnContainer">
+                            <button className="loginBtn">
+                                Enter Hall
+                            </button>
+                            <button className="loginRegister">
+                                Register New Hunter
+                            </button>
+                        </div>
+                        
                         <span className="loginForgot">Forgot Password?</span>
-                        <button className="loginRegister">
-                            Create a New Account
-                        </button>
+                        
                     </div>
                 </div>
             </div>
