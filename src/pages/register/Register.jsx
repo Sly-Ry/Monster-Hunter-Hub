@@ -1,6 +1,6 @@
-import'./login.css'
+import'./register.css'
 
-export default function Login() {
+export default function Register() {
     return (
         <div className="login">
             <div className="loginWrapper">
@@ -12,17 +12,18 @@ export default function Login() {
                 </div>
                 <div className="loginRight">
                     <div className="loginBox">
+                        <input placeholder='Username:' className="loginInput" />
                         <input placeholder='Email:' className="loginInput" />
                         <input placeholder='Password:' className="loginInput" />
+                        <input placeholder='Confirm Password:' className="loginInput" />
                         <div className="loginBtnContainer">
                             <button className="loginBtn">
-                                Enter Hall
+                                Register Hunter
                             </button>
                             <button className="loginRegister">
-                                Register New Hunter
+                                Sign into Account
                             </button>
                         </div>
-                        <span className="loginForgot">Forgot Password?</span>
                     </div>
                 </div>
             </div>
