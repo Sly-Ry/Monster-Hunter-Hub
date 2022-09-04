@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Monster-Hunter-Hub/static/css/main.0734f38d.css",
+    "main.js": "/Monster-Hunter-Hub/static/js/main.32ee1c38.js",
+    "static/media/clearing.jpg": "/Monster-Hunter-Hub/static/media/clearing.3f45e41ada5e7d6ac23b.jpg",
+    "static/media/background.jpg": "/Monster-Hunter-Hub/static/media/background.410215b1302ff6383609.jpg",
+    "static/media/wood.jpg": "/Monster-Hunter-Hub/static/media/wood.04d4b2f60f8d3118400b.jpg",
+    "index.html": "/Monster-Hunter-Hub/index.html",
+    "main.0734f38d.css.map": "/Monster-Hunter-Hub/static/css/main.0734f38d.css.map",
+    "main.32ee1c38.js.map": "/Monster-Hunter-Hub/static/js/main.32ee1c38.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0734f38d.css",
+    "static/js/main.32ee1c38.js"
+  ]
+}
